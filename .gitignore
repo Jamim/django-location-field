@@ -2,6 +2,7 @@
 .venv
 .eggs
 .tox
+django_location_field.egg-info/
 
 *.pyc
 
@@ -18,3 +19,6 @@ build
 
 # Docs
 docs/build
+
+# PyCharm
+.idea/

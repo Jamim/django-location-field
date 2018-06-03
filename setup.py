@@ -8,7 +8,8 @@ setup(
     name='django-location-field',
     version=VERSION,
     description="Location field for Django",
-    long_description="This module provides a location field for Django applications.",
+    long_description='This module provides a location field '
+                     'for Django applications.',
     author="Caio Ariede",
     author_email="caio.ariede@gmail.com",
     url="http://github.com/caioariede/django-location-field",
@@ -28,8 +29,10 @@ setup(
         "Operating System :: OS Independent",
         "Framework :: Django",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
     ],
     include_package_data=True,
     install_requires=[

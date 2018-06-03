@@ -1,17 +1,15 @@
 import os
 import sys
 
+import django
+
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'tests.test_settings'
 
 test_dir = os.path.dirname(__file__)
 sys.path.insert(0, test_dir)
 
-
-import django
-
-if django.VERSION[1] > 6:
-    django.setup()
+django.setup()
 
 
 def runtests():
